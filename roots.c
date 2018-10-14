@@ -11,8 +11,8 @@
  printf("enter value of c \n");
  scanf("%d", &c);
  printf("the entered equation is:");
- printf("%dx^2+",a);
- printf("%dy+",b);
+ printf("%dx^2",a);
+ printf("%dx+",b);
  printf("%d \n",c);
  printf("the required roots are: \n");
  r1=((-b+sqrt(4*a*c)))/2*a;
